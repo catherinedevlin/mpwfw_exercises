@@ -16,10 +16,12 @@ def convert_file(fname):
     chunk = corePatt.search(str(soup.body)).group(1)
     chunk = str(chunk).split('Show Hint')[0]
     chunk = nobuttons.sub('', chunk)
-    chunk = chunk.replace(r'<br />', r'<br />&nbsp;&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; ')
-    chunk = chunk.replace('→', r'<br />&nbsp;&nbsp;&nbsp;&nbsp;')
+    chunk = chunk.replace(r'<br />', r'<br />&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; ')
+    chunk = chunk.replace('→', r'<br />&nbsp;&nbsp;&nbsp;')
     chunk = chunk.replace(r'<p>Hint', r'<p>Hints:<br /><br />&lt;ul style="color:white"&gt;<br />&lt;li&gt;')
     chunk = chunk.replace(r'&lt;pre&gt;%0a#1:', r'&lt;ul style="color:white"&gt;<br />&lt;ul&gt;')
+    chunk = chunk.replace(r'%26#39;', "'")
+    chunk = chunk.replace(r'%26quot;', '"')
     return chunk
     
 for fpatt in sys.argv[1:]:
