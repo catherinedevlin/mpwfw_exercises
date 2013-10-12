@@ -1,0 +1,8 @@
+
+    >>> multiplyString('a', 4)
+    'aaaa'
+    >>> multiplyString('Hello', 2)
+    'HelloHello'
+    >>> multiplyString('Python', 3)
+    'PythonPythonPython'
+    

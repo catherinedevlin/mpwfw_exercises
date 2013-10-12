@@ -1,0 +1,10 @@
+
+    >>> tooLongForTwitter('The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves.' +
+    ... '-- Ada Lovelace, the first programmer')
+    False
+    >>> tooLongForTwitter('Four score and seven years ago our fathers brought forth on this continent a new nation, ' +
+    ... 'conceived in liberty, and dedicated to the proposition that all men are created equal.')
+    True
+    >>> tooLongForTwitter('They told me computers could only do arithmetic. -- Computer pioneer Grace Hopper')
+    False
+    

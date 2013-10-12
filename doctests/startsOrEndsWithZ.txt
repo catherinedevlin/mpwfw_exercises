@@ -1,0 +1,8 @@
+
+    >>> startsOrEndsWithZ('pizzazz')
+    True
+    >>> startsOrEndsWithZ('python')
+    False
+    >>> startsOrEndsWithZ('zap')
+    True
+    

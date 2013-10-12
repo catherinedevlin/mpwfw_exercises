@@ -1,0 +1,8 @@
+
+    >>> checkNickname('jess', 'jessica')
+    True
+    >>> checkNickname('bill', 'william')
+    False
+    >>> checkNickname('liz', 'elizabeth')
+    True
+    

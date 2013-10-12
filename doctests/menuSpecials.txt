@@ -1,0 +1,8 @@
+
+    >>> menuSpecials('asparagus', 'pasta primavera')
+    'Today our specials are: asparagus and pasta primavera'
+    >>> menuSpecials('artichoke', 'steak frites')
+    'Today our specials are: artichoke and steak frites'
+    >>> menuSpecials('kale', 'fondue')
+    'Today our specials are: kale and fondue'
+    

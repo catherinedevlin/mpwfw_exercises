@@ -1,0 +1,8 @@
+
+    >>> enoughLadybugs(300, 3)
+    True
+    >>> enoughLadybugs(300, 4)
+    False
+    >>> enoughLadybugs(250, 11)
+    False
+    

@@ -1,0 +1,8 @@
+
+    >>> getFirstQWord(['quail', 'quetzal', 'quizzical'])
+    'quail'
+    >>> getFirstQWord(['croissant', 'quiche', 'toast'])
+    'quiche'
+    >>> getFirstQWord(['zip', 'blip', 'quip'])
+    'quip'
+    

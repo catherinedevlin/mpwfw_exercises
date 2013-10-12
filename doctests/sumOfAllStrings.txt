@@ -1,0 +1,8 @@
+
+    >>> sumOfAllStrings(['Eleanor', 'Rigby'])
+    12
+    >>> sumOfAllStrings(['Eight', 'Days', 'a', 'Week'])
+    14
+    >>> sumOfAllStrings(['Strawberry', 'Fields', 'Forever'])
+    23
+    

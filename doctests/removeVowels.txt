@@ -1,0 +1,8 @@
+
+    >>> removeVowels('bookkeeper')
+    'bkkpr'
+    >>> removeVowels('almanac')
+    'lmnc'
+    >>> removeVowels('syzygy')
+    'syzygy'
+    

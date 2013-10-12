@@ -1,0 +1,8 @@
+
+    >>> spellingBee('hello', 'hello')
+    'correct'
+    >>> spellingBee('python', 'pithon')
+    'almost'
+    >>> spellingBee('echolocation', 'eckolocashun')
+    'wrong'
+    

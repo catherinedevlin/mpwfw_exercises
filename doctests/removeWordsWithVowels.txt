@@ -1,0 +1,8 @@
+
+    >>> removeWordsWithVowels(['hymn','myth','myrrh','nymph'])
+    ['hymn', 'myth', 'myrrh', 'nymph']
+    >>> removeWordsWithVowels(['who','what','when','where','why'])
+    ['why']
+    >>> removeWordsWithVowels(['coy','sly','shy','bashful'])
+    ['sly', 'shy']
+    

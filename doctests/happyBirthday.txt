@@ -1,0 +1,7 @@
+    >>> happyBirthday('Jessica')
+    'Happy Birthday Jessica!'
+    >>> happyBirthday('Adam')
+    'Happy Birthday Adam!'
+    >>> happyBirthday('Liz')
+    'Happy Birthday Liz!'
+

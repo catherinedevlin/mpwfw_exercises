@@ -1,0 +1,8 @@
+
+    >>> countFs('Finished files are the result of years of scientific study combined with the experience of years.')
+    6
+    >>> countFs('Four score and seven years ago')
+    1
+    >>> countFs('A man, a plan, a canal - Panama!')
+    0
+    

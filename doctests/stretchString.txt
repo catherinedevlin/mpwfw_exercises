@@ -1,0 +1,8 @@
+
+    >>> stretchString('banana', 2)
+    'bbaannaannaa'
+    >>> stretchString('apple', 3)
+    'aaappppppllleee'
+    >>> stretchString('fig', 4)
+    'ffffiiiigggg'
+    

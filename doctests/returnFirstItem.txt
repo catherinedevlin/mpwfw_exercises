@@ -1,0 +1,9 @@
+
+    >>>
+    >>> returnFirstItem(['a', 'b', 'c'])
+    'a'
+    >>> returnFirstItem([4.5, 72, -1, 6])
+    4.5
+    >>> returnFirstItem(['Hermione', 'Ron', 'Harry'])
+    'Hermione'
+    

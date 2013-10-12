@@ -1,0 +1,8 @@
+
+    >>> makeHTML('i', 'Test')
+    '<i>Test</i>'
+    >>> makeHTML('b', 'Important!')
+    '<b>Important!</b>'
+    >>> makeHTML('code', 'variable')
+    '<code>variable</code>'
+    

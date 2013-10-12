@@ -1,0 +1,8 @@
+
+    >>> findStudent('Wanda', ['Henry', 'Beatrice', 'Wanda', 'Evan'])
+    True
+    >>> findStudent('Adam', ['Tanya', 'Alice', 'Sean'])
+    False
+    >>> findStudent('Jen', ['Jessica', 'Jessie', 'Jerry', 'Jen'])
+    True
+    
